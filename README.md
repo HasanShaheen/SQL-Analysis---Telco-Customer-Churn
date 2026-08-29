@@ -16,8 +16,8 @@ This project analyzes a 7,000+ row telecommunications dataset to identify driver
 │   ├── 02_tenure_cohort_analysis.sql         # CTE-based tenure bucketing
 │   └── 03_vip_customer_segmentation.sql      # Window functions for top spender ranking
 └── README.md                                 # Executive summary & SQL methodology
-
 ---
+
 
 ## 🎯 Business Problems & Objectives
 
@@ -26,6 +26,7 @@ This project analyzes a 7,000+ row telecommunications dataset to identify driver
 3. **VIP Retention:** Proactively identify the top 3 highest-paying active customers per contract tier to optimize targeted reward campaigns.
 
 ---
+
 
 ## 🔍 Analytical Methodology 
 
@@ -39,6 +40,7 @@ To solve these business problems, the analysis was broken down into three distin
     *   *Methodology:* Applied Window Functions (`RANK() OVER (PARTITION BY...)`) to rank active customers by Total Charges within their specific contract tier. This allowed for advanced segmentation while retaining critical row-level identifiers like Customer ID.
 
 ---
+
 
 ## 💡 Strategic Recommendations
 
