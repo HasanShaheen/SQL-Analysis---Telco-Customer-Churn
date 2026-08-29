@@ -16,8 +16,8 @@ This project analyzes a 7,000+ row telecommunications dataset to identify driver
 │   ├── 02_tenure_cohort_analysis.sql         # CTE-based tenure bucketing
 │   └── 03_vip_customer_segmentation.sql      # Window functions for top spender ranking
 └── README.md                                 # Executive summary & SQL methodology
+```
 ---
-
 
 ## 🎯 Business Problems & Objectives
 
